@@ -29,7 +29,6 @@ const Dash = (props) => {
 	}
 	return (
 		<View
-			onLayout={ props.onLayout }
 			style={ [ props.style, isRow ? styles.dashRow : styles.dashColumn ] }
 		>
 			{ dash }
